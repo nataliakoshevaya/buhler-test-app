@@ -1,3 +1,3 @@
 # BuhlerTestApp
 
-**For run project wiith json server use command `npm run dev`**
+**For run project with json server use command `npm run dev`**
