@@ -1,0 +1,11 @@
+<div class="nav-container">
+  <ul>
+    <li
+      *ngFor="let machine of machineSectionList$ | async"
+      [ngClass]="setBackgroundColor(machine.status)"
+    >
+      <a [routerLink] = "[ '/section', machine.id ]">{{ machine.sectionName }}</a>
+      <span class="material-icons status">{{ machine.status | iconStatus }}</span>
+    </li>
+  </ul>  
+</div>

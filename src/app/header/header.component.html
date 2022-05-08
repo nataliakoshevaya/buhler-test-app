@@ -1,0 +1,17 @@
+<header class="header">
+  <div class="container">
+    <a routerLink="">
+      <img class="logo" src="{{ logo }}" alt="logo" />
+    </a>
+    <div class="header-inner">
+      <div class="content">
+        <span class="material-icons">schedule</span>
+        <span class="info">{{ time | date: "MMM d, y, H:mm:ss" }}</span>
+      </div>
+      <div class="content">
+        <span class="material-icons-outlined">account_circle</span>
+        <span class="info">{{ userName }}</span>
+      </div>
+    </div>
+  </div>
+</header>

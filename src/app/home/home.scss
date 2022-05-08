@@ -1,0 +1,31 @@
+@import '../../assets/style/variables';
+
+.container {
+    margin: 0 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    position: relative;
+}
+
+li {
+    display: block;
+    flex: 0 1 auto;
+    width: 100px;
+    height: 100px;
+    padding: 0 0.75em;
+    z-index: 1;
+}
+
+ul:after {
+    content: '';
+    border-bottom: 5px solid $green;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 100%;   
+}

@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'material-icons/iconfont/material-icons.css';
+@import './assets/style/variables';
+
+* {
+    box-sizing: border-box;
+}
+
+html, body { 
+    height: 100%; 
+}
+
+body { 
+    margin: 0;
+    padding: 0;
+    color: $white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+.header {
+    background-color: $grey;
+}
+
+.warning {
+    background-color: $yellow;
+}
+
+.alarm, .error {
+    background-color: $red;
+}
+
+.running {
+    background-color: $grey;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+<div class="container">
+   <ul class="progressbar">
+       <li *ngFor="let machine of machineSectionList$ | async" [ngClass]="setBackgroundColor(machine.status)">
+           <app-machine-section-item [sectionName]="machine.sectionName" [sectionImg]="machine.sectionImg" [status]="machine.status"></app-machine-section-item> 
+       </li>
+   </ul>
+</div>
+
+<ng-container *ngIf="errorServerMessage" class="error">
+    {{ errorServerMessage }}
+</ng-container>

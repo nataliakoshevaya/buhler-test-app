@@ -1,0 +1,38 @@
+@import '../../assets/style/variables';
+
+.nav-container {
+  border-top: 5px solid $lightgreen;
+  background-color: $grey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+li {
+    position: relative;
+}
+
+li a {
+    display: inline-block;
+    color: $white;
+    text-align: center;
+    text-decoration: none;
+    padding: 9px 20px 9px;
+}
+  
+li a:hover {
+    background-color: $darkgrey;
+}
+
+.status {
+    font-size: 16px;
+    position: absolute;
+    right:0;
+    top:0;
+    padding-right: 5px;
+}

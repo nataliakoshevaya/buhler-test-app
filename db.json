@@ -1,0 +1,28 @@
+{
+  "machine": [
+    {
+      "id": 1,
+      "sectionName": "Scale",
+      "sectionImg": "system_update_alt",
+      "status": "running"
+    },
+    {
+      "id": 2,
+      "sectionName": "Attacher",
+      "sectionImg": "chrome_reader_mode",
+      "status": "alarm"
+    },
+    {
+      "id": 3,
+      "sectionName": "Packer",
+      "sectionImg": "inventory_2",
+      "status": "running"
+    },
+    {
+      "id": 4,
+      "sectionName": "Closer",
+      "sectionImg": "view_comfy",
+      "status": "warning"
+    }
+  ]
+}

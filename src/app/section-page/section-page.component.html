@@ -1,0 +1,10 @@
+<div class="container" *ngIf="machineSectionData$ | async as machine; else error">
+    <p>Machine: {{ machine.sectionName }}</p>
+    <p>Status: {{ machine.status | uppercase }}!!!</p>
+</div>
+
+<ng-template #error>
+   <div class="error">
+     {{ errorServerMessage }}
+   </div>
+</ng-template>
